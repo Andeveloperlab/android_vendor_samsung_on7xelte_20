@@ -30,9 +30,9 @@ LOCAL_CHECK_ELF_FILES := false
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/egl
 SYMLINKS := $(TARGET_OUT)/vendor
 $(SYMLINKS):
-	@echo "Symlink: vulkan.exynos5.so"
+	@echo "Symlink: vulkan.universal7870.so"
 	@mkdir -p $@/lib/hw
-	$(hide) ln -sf ../egl/libGLES_mali.so $@/lib/hw/vulkan.exynos5.so
+	$(hide) ln -sf ../egl/libGLES_mali.so $@/lib/hw/vulkan.universal7870.so
 	@echo "Symlink: libOpenCL.so.1.1"
 	$(hide) ln -sf egl/libGLES_mali.so $@/lib/libOpenCL.so.1.1
 ALL_MODULES.$(LOCAL_MODULE).INSTALLED := \
