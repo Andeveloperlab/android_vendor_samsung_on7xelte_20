@@ -53,16 +53,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/etc/wifi/cred.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/cred.conf \
     vendor/samsung/on7xelte/proprietary/etc/wifi/nvram_mfg.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_mfg.txt \
     vendor/samsung/on7xelte/proprietary/etc/wifi/nvram_net.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/wifi/nvram_net.txt \
-    vendor/samsung/on7xelte/proprietary/lib/egl/egl.cfg:$(TARGET_COPY_OUT_SYSTEM)/lib/egl/egl.cfg \
-    vendor/samsung/on7xelte/proprietary/lib/egl/libGLES_android.so:$(TARGET_COPY_OUT_SYSTEM)/lib/egl/libGLES_android.so \
     vendor/samsung/on7xelte/proprietary/lib/hw/camera.vendor.universal7870.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.vendor.universal7870.so \
     vendor/samsung/on7xelte/proprietary/lib/hw/fingerprint.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/fingerprint.exynos5.so \
     vendor/samsung/on7xelte/proprietary/lib/hw/gatekeeper.exynos7870.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gatekeeper.exynos7870.so \
     vendor/samsung/on7xelte/proprietary/lib/hw/gps.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gps.default.so \
-    vendor/samsung/on7xelte/proprietary/lib/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gralloc.exynos5.so \
-    vendor/samsung/on7xelte/proprietary/lib/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/hwcomposer.exynos5.so \
+    vendor/samsung/on7xelte/proprietary/lib/hw/gralloc.exynos7870.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/gralloc.exynos7870.so \
+    vendor/samsung/on7xelte/proprietary/lib/hw/hwcomposer.exynos7870.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/hwcomposer.exynos7870.so \
     vendor/samsung/on7xelte/proprietary/lib/hw/keystore.exynos7870.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/keystore.exynos7870.so \
-    vendor/samsung/on7xelte/proprietary/lib/hw/memtrack.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/memtrack.exynos5.so \
+    vendor/samsung/on7xelte/proprietary/lib/hw/memtrack.exynos7870.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/memtrack.exynos7870.so \
     vendor/samsung/on7xelte/proprietary/lib/hw/sensors.universal7870.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.universal7870.so \
     vendor/samsung/on7xelte/proprietary/lib/libExynosOMX_Core.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libExynosOMX_Core.so \
     vendor/samsung/on7xelte/proprietary/lib/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libExynosOMX_Resourcemanager.so \
@@ -112,6 +110,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/on7xelte/proprietary/lib/libuniplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libuniplugin.so \
     vendor/samsung/on7xelte/proprietary/lib/libwrappergps.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwrappergps.so \
+    vendor/samsung/on7xelte/proprietary/lib/libGrallocWrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libGrallocWrapper.so \
+    vendor/samsung/on7xelte/proprietary/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libExynosHWCService.so \
     vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/samsung/on7xelte/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
